@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_margin="16dp"
+        style="@style/textLargeStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edition"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="8dp"
+            style="@style/textMediumStyleLight"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Student name:"
+            android:layout_height="wrap_content" />
+
+    <EditText
+        android:layout_weight="2"
+        style="@style/textMediumStyle"
+        android:id="@+id/editor_student_name_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+        android:textColorHint="@color/colorDivider"
+        android:hint="Enter student name" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="8dp"
+            style="@style/textMediumStyleLight"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Board Id:"
+            android:layout_height="wrap_content" />
+        <EditText
+            android:layout_weight="2"
+            style="@style/textMediumStyle"
+            android:id="@+id/editor_board_id_edit_text"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:textColorHint="@color/colorDivider"
+            android:hint="Board Id" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_marginLeft="8dp"
+            style="@style/textMediumStyleLight"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:text="Student id:"
+            android:layout_height="wrap_content" />
+    <EditText
+        android:layout_weight="2"
+        style="@style/textMediumStyle"
+        android:id="@+id/editor_student_id_edit_text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:textColorHint="@color/colorDivider"
+        android:hint="Student Id" />
+    </LinearLayout>
+    <TextView
+        android:layout_margin="16dp"
+        style="@style/textMediumStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Select board image:"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:id="@+id/frdm_k146z_relative_layout"
+            android:layout_width="0dp"
+            android:layout_height="148dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/frdm_k146z_selected"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_check_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@id/frdm_k146z_selected"
+                android:id="@+id/frdm_k146z_text_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                style="@style/textMediumStyle"
+                android:text="frdm-k146z"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        <ImageView
+            android:id="@+id/frdm_k146z_image_view"
+            android:layout_below="@id/frdm_k146z_text_view"
+            android:src="@drawable/frmd_kl46z"
+            android:layout_width="match_parent"
+            android:layout_height="100dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/frdm_k22f_relative_layout"
+            android:layout_width="0dp"
+            android:layout_height="148dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/frdm_k22f_selected"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_check_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_below="@id/frdm_k22f_selected"
+                android:id="@+id/frdm_k22f_text_view"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                style="@style/textMediumStyle"
+                android:text="frdm_k22f"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/frdm_k22f_image_view"
+                android:layout_below="@id/frdm_k22f_text_view"
+                android:src="@drawable/frdm_k22f"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rdl_uno_atmega328_relative_layout"
+            android:layout_width="0dp"
+            android:layout_height="148dp"
+            android:layout_weight="1">
+            <ImageView
+                android:id="@+id/rdl_uno_atmega328_selected"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/ic_check_24dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/rdl_uno_atmega328_text_view"
+                android:layout_below="@id/rdl_uno_atmega328_selected"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="8dp"
+                style="@style/textMediumStyle"
+                android:text="rdl_uno_atmega328"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:id="@+id/rdl_uno_atmega328_image_view"
+                android:layout_below="@id/rdl_uno_atmega328_text_view"
+                android:src="@drawable/rdl_uno_atmega328"
+                android:layout_width="match_parent"
+                android:layout_height="100dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>

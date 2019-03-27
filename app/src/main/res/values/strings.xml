@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">BoardLoggerRFID</string>
+    <string name="delete_dialog_msg">Do you really want to delete this log?</string>
+    <string name="delete">Delete</string>
+    <string name="cancel">Cancel</string>
+    <string name="editor_delete_log_failed">Deleting failed</string>
+    <string name="editor_delete_log_successful">Log deleted</string>
+</resources>

@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "727000114872",
+    "firebase_url": "https://testowywariatuncio.firebaseio.com",
+    "project_id": "testowywariatuncio",
+    "storage_bucket": "testowywariatuncio.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:727000114872:android:e4cdfc24b04fa7e1",
+        "android_client_info": {
+          "package_name": "com.desginlab.agh.boardloggerrfid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "727000114872-k4a09plf723m1iogiv9u2lbt47rtu63e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCUq4Ys3m2H_38WyjxrX7kAu6KolxVYxfg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

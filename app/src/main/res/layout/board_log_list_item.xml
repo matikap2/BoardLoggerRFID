@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context=".CatalogActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:orientation="horizontal">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+            <ImageView
+                android:id="@+id/board_image_view"
+                android:layout_margin="18dp"
+                android:layout_width="64dp"
+                android:layout_height="64dp"
+                android:src="@drawable/frmd_kl46z"/>
+
+<LinearLayout
+    android:id="@+id/text_block_linear_layout"
+    android:layout_marginTop="12dp"
+    android:layout_toRightOf="@id/board_image_view"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/textSmallStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Added on: " />
+        <TextView
+            style="@style/textSmallStyle"
+            android:id="@+id/date_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="00:04 - 02.01.2018" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingTop="4dp"
+        android:paddingBottom="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/textMediumStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student name:  " />
+        <TextView
+            style="@style/textMediumStyle"
+            android:id="@+id/student_name_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="Jan Gąsienica-Józkowy" />
+    </LinearLayout>
+    <LinearLayout
+        android:paddingBottom="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/textMediumStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Board ID:  " />
+        <TextView
+            style="@style/textMediumStyle"
+            android:id="@+id/student_id_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:text="123456" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            style="@style/textMediumStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Student ID:  " />
+
+        <TextView
+            style="@style/textMediumStyle"
+            android:id="@+id/board_id_text_view"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="#423432abc" />
+    </LinearLayout>
+
+</LinearLayout>
+            <ImageView
+                android:layout_margin="8dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_edit_black_16dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>
