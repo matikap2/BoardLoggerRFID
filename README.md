@@ -2,6 +2,7 @@
 
 Final project of app to Microprocessor's System II and Design Laboratory project at Electronics faculty. Full project:
 https://github.com/Andropogon/RFIDtagboardlogger
+
 Simple logger of developement boards rented by students on laboratories.
 
 ##More about project:
