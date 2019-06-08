@@ -5,7 +5,7 @@ https://github.com/matikap2/RFIDtagboardlogger
 
 Simple logger of developement boards rented by students on laboratories.
 
-##More about project:
+## More about project:
 
 ### Used modules
 
